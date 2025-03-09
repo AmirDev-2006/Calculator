@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "sans";
+    src: url("../src/assets/WorkSans-Thin.ttf") format("truetype");
+}
+.font-sans-work{
+    font-family:"sans";
+}
