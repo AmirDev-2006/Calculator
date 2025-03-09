@@ -14,7 +14,7 @@ function Calculate(){
         input.value = eval(input.value)
     }
     catch{
-        alert(خطا)
+        alert("خطا")
         clearInput()
     }
 }
