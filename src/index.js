@@ -78,9 +78,14 @@ async function ShowHistory() {
 function updateHistory(){
     const historyDiv = document.getElementById("text")
     historyDiv.innerHTML =""
+    const h = document.createElement('h1')
+    h.classList.add('HISTORY')
+    h.textContent = "History"
+    historyDiv.appendChild(h)
 
     history.forEach(item => {
         const p = document.createElement("p")
+        p.classList.add('histext')
         p.textContent = item
         historyDiv.appendChild(p)
     });
