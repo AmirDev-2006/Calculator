@@ -9,7 +9,7 @@
     
 </head>
 <body class="flex bg-[#F1F2F3] justify-center items-center">
-    <div class="w-[800px] flex flex-col gap-y-4  items-center h-screen">
+    <div id="box" class="w-[800px] flex flex-col gap-y-4  items-center h-screen">
         <br>
         <br>
         <br>
@@ -51,6 +51,12 @@
                   </svg>                  
             </button>
             <button onclick="Calculate()" class="w-[72px] h-[72px] text-[32px] text-center font-sans-work font-bold rounded-full text-white bg-black">=</button>
+        </div>
+    </div>
+    <div class="flex flex-col">
+        <button id="btn" onclick="historyButton()" class="w-full h-[72px] text-[32px] text-center font-sans-work font-bold rounded-full bg-[#D2D3DA]">History</button>
+        <div id="text" class="display flex-col p-7 w-[90px] bg-slate-700 h-full">
+            Hello
         </div>
     </div>
     <script src="index.js"></script>
