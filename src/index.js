@@ -6,13 +6,11 @@ function historyButton() {
         document.getElementById('box').classList.remove('flex');
         document.getElementById("text").classList.add("flex");
         document.getElementById("text").classList.remove("display");
-        document.getElementById('btn').innerText = 'Calculator';
     } else {
         document.getElementById('box').classList.add('flex');
         document.getElementById('box').classList.remove('display');
         document.getElementById("text").classList.add("display");
         document.getElementById("text").classList.remove("flex");
-        document.getElementById('btn').innerText = 'History';
     }
 }
 
